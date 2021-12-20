@@ -20,6 +20,7 @@
                 </h2>
                 <p class= 'body'>{{$post->body}}</p>
             </div>
+            <form action="/posts/{{ $post->id }}" id="form_{{ $post->id}}">
             @endforeach
         </div>
         <div class='paginate'>
