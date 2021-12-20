@@ -24,7 +24,7 @@
                 <p class="body_error" style="color:red">{{ $errors->first('post.body') }}</p>
             </div>
             <input type="submit" value="strore"/>
-                </form>   
+                </form>
                  <div class='footer'>
             <a href="/">戻る</a></div>
     </body>
